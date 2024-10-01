@@ -1,11 +1,6 @@
 # Lab 3: Deploying Azure App Service Web Apps
 
 1. **Création d’un App Service Plan**
-1. Créez un App Service Plan dans le portail Azure :
-    Name : AppServicePlan-Lab3
-    Operating System : Linux ou Windows
-    Region : Sélectionner la région préférée
-    Pricing Tier : Free ou Standard selon les besoins
 
 ### Commande équivalente (Azure CLI)
 ```bash

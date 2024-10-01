@@ -2,7 +2,7 @@
 
 1. **Création d'un Storage Account avec des options de réplication**
 
-## Commande équivalente (Azure CLI)
+### Commande équivalente (Azure CLI)
 ```bash
 az storage account create \
   --name lab4stockage \
@@ -13,7 +13,7 @@ az storage account create \
 
 2. **Téléverser et gérer des blobs**
 
-## Commande équivalente (Azure CLI)
+### Commande équivalente (Azure CLI)
 ```bash
 az storage container create \
   --account-name lab4stockage \
@@ -28,7 +28,7 @@ az storage blob upload \
 
 3. **Configurer une Shared Access Signature**
 
-## Commande équivalente (Azure CLI)
+### Commande équivalente (Azure CLI)
 ```bash
 az storage blob generate-sas \
   --account-name lab4stockage \
@@ -41,7 +41,7 @@ az storage blob generate-sas \
 
 4. **Implémenter des politiques de gestion du cycle de vie**
 
-## Commande équivalente (Azure CLI)
+### Commande équivalente (Azure CLI)
 ```bash
 az storage account management-policy create \
   --account-name lab4stockage \
