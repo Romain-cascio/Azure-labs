@@ -2,7 +2,7 @@
 
 1. **Création d’un App Service Plan**
 
-### Commande équivalente (Azure CLI)
+- Commande équivalente (Azure CLI)
 ```bash
 az appservice plan create \
   --name myAppServicePlan \
@@ -13,7 +13,7 @@ az appservice plan create \
 
 2. **Déployer une application web**
 
-### Commande équivalente (Azure CLI)
+- Commande équivalente (Azure CLI)
 ```bash
 az webapp create \
   --resource-group <nom_du_groupe> \
@@ -24,7 +24,7 @@ az webapp create \
 
 3. **Configurer un domaine personnalisé et SSL**
 
-### Commande équivalente (Azure CLI)
+- Commande équivalente (Azure CLI)
 ```bash
 az webapp config hostname add \
   --resource-group <nom_du_groupe> \
@@ -42,7 +42,7 @@ az webapp config ssl upload \
 
 4. **Implémenter des slots de déploiement**
 
-### Commande équivalente (Azure CLI)
+- Commande équivalente (Azure CLI)
 ```bash
 az webapp deployment slot create \
   --resource-group <nom_du_groupe> \
