@@ -13,4 +13,4 @@ Déployer une machine virtuelle sous Windows et Linux sur Azure, configurer leur
 7. Prise de snapshot des VM.
 
 ## Commandes Azure CLI utilisées :
-Voir [Commande.md](commande.md) pour plus de détails.
+Voir [Commande.md](Commande.md) pour plus de détails.
