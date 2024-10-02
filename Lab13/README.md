@@ -1,7 +1,7 @@
 # Lab 13: Implementing Azure Key Vault
 
 1. **Créer un Azure Key Vault**
-[1.png](1.png)
+![1.png](1.png)
 
 - Commande équivalente (Azure CLI)
 
