@@ -39,3 +39,21 @@ az network dns record-set cname set-record \
 3. **Configurer la vérification de domaine et le mappage pour les services Azure**
 
 
+
+- Commande équivalente (Azure CLI)
+
+Associer un domaine personnalisé à un App Service :
+```bash
+az webapp config hostname add \
+  --resource-group $RESOURCE_GROUP \
+  --webapp-name "myAppService" \
+  --hostname "www.mydomain.com"
+```
+Créer un enregistrement TXT pour la vérification :
+```bash
+  az network dns record-set txt add-record \
+  --resource-group $RESOURCE_GROUP \
+  --zone-name $DNS_ZONE \
+  --record-set-name "@" \
+  --value "verification-code-from-azure"
+```
