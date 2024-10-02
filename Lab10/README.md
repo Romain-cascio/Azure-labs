@@ -2,6 +2,8 @@
 
 1. **Créer un Recovery Services Vault**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash
@@ -32,6 +34,8 @@ az backup protection enable-for-azurefileshare \
 
 3. **Effectuer une sauvegarde et une restauration**
 
+![2.png](2.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash
@@ -44,6 +48,8 @@ az backup protection backup-now \
 ```
 
 4. **Implémenter des politiques de sauvegarde et de rétention**
+
+![3.png](3.png)
 
 - Commande équivalente (Azure CLI)
 

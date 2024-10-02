@@ -2,6 +2,8 @@
 
 1. **Création d'un Storage Account avec des options de réplication**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 ```bash
 az storage account create \
@@ -12,6 +14,8 @@ az storage account create \
 ```
 
 2. **Téléverser et gérer des blobs**
+
+![2.png](2.png)
 
 - Commande équivalente (Azure CLI)
 ```bash
@@ -40,6 +44,8 @@ az storage blob generate-sas \
 ```
 
 4. **Implémenter des politiques de gestion du cycle de vie**
+
+![4.png](4.png)
 
 - Commande équivalente (Azure CLI)
 ```bash

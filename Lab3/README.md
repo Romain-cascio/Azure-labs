@@ -2,6 +2,8 @@
 
 1. **Création d’un App Service Plan**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 ```bash
 az appservice plan create \
@@ -13,6 +15,8 @@ az appservice plan create \
 
 2. **Déployer une application web**
 
+![2.png](2.png)
+
 - Commande équivalente (Azure CLI)
 ```bash
 az webapp create \
@@ -23,6 +27,8 @@ az webapp create \
 ```
 
 3. **Configurer un domaine personnalisé et SSL**
+
+![3.png](3.png)
 
 - Commande équivalente (Azure CLI)
 ```bash

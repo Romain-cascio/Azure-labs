@@ -2,6 +2,8 @@
 
 1. **Configurer Azure Monitor pour collecter des métriques**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash
@@ -14,6 +16,8 @@ az monitor diagnostic-settings create \
 ```
 
 2. **Créer des alertes basées sur les métriques des ressources**
+
+![2.png](2.png)
 
 - Commande équivalente (Azure CLI)
 
@@ -30,6 +34,10 @@ az monitor metrics alert create \
 
 3. **Visualiser les données à l'aide des tableaux de bord Azure**
 
+![4.png](4.png)
+
+![3.png](3.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash
@@ -37,6 +45,8 @@ az portal dashboard create --resource-group $RESOURCE_GROUP --name $DASHBOARD_NA
 ```
 
 4. **Mettre en œuvre des groupes d'actions pour les notifications d'alertes**
+
+![5.png](5.png)
 
 - Commande équivalente (Azure CLI)
 

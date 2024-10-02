@@ -2,6 +2,8 @@
 
 1. **Déployer une instance SQL Azure**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 ```bash
 az sql db create \
@@ -24,6 +26,8 @@ az sql server create \
 
 2. **Configurer les paramètres de pare-feu**
 
+![2.png](2.png)
+
 - Commande équivalente (Azure CLI)
 ```bash
 az sql server firewall-rule create \
@@ -35,6 +39,8 @@ az sql server firewall-rule create \
 ```
 
 3. **Importer des données dans la base de données**
+
+![3.png](3.png)
 
 - Commande équivalente (Azure CLI)
 ```bash

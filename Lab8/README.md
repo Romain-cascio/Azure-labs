@@ -2,6 +2,8 @@
 
 1. **Créer une ressource Azure Cognitive Services**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash

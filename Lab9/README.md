@@ -2,6 +2,8 @@
 
 1. **Déployer un Azure Load Balancer pour répartir le trafic entre plusieurs VMs**
 
+![1.png](1.png)
+
 - Commande équivalente (Azure CLI)
 
 ```bash
@@ -22,6 +24,8 @@ az network lb create \
 ```
 
 2. **Configurer les probes de santé et les règles d'équilibrage**
+
+![2.png](2.png)
 
 - Commande équivalente (Azure CLI)
 
@@ -47,6 +51,8 @@ az network lb rule create \
 ```
 
 3. **Configurer Azure Traffic Manager**
+
+![3.png](3.png)
 
 - Commande équivalente (Azure CLI)
 
