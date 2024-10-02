@@ -38,8 +38,6 @@ az network dns record-set cname set-record \
 
 3. **Configurer la vérification de domaine et le mappage pour les services Azure**
 
-
-
 - Commande équivalente (Azure CLI)
 
 Associer un domaine personnalisé à un App Service :
@@ -56,4 +54,18 @@ Créer un enregistrement TXT pour la vérification :
   --zone-name $DNS_ZONE \
   --record-set-name "@" \
   --value "verification-code-from-azure"
+```
+
+4. **Mettre en œuvre des alias DNS (CNAME) et des ensembles d'enregistrements**
+
+- Commande équivalente (Azure CLI)
+
+Créer un enregistrement CNAME :
+```bash
+az network dns record-set cname set-record \
+  --resource-group $RESOURCE_GROUP \
+  --zone-name $DNS_ZONE \
+  --record-set-name "app" \
+  --cname "myapp.azurewebsites.net"
+
 ```
