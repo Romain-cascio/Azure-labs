@@ -35,12 +35,35 @@ Démarrer la fonction localement :
 func start
 ```
 
+```bash
+curl http://localhost:7071/api/HelloWorldFunction
+```
 
+4. **Déployer la fonction sur Azure**
+
+Créer une Function App dans Azure :
 ```bash
+az functionapp create \
+  --resource-group myResourceGroup \
+  --consumption-plan-location EastUS \
+  --runtime python \
+  --name MyFunctionApp \
+  --storage-account mystorageaccount
 ```
+
+Déployer la fonction sur Azure :
 ```bash
+func azure functionapp publish MyFunctionApp
 ```
+
+Tester la connexion:
 ```bash
+curl https://myfunctionapp.azurewebsites.net/api/HelloWorldFunction
 ```
+
+5. **Tester la fonction avec l'intégration Azure Storage**
+
+Exécuter et tester
 ```bash
+curl https://myfunctionapp.azurewebsites.net/api/HelloWorldFunction
 ```
