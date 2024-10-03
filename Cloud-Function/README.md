@@ -35,11 +35,14 @@ Démarrer la fonction localement :
 func start
 ```
 
+Exemple:
 ```bash
 curl http://localhost:7071/api/HelloWorldFunction
 ```
 
 4. **Déployer la fonction sur Azure**
+
+![2.png](2.png)
 
 Créer une Function App dans Azure :
 ```bash
